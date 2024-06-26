@@ -7,7 +7,7 @@ const app = express();
 
 // Use body-parser middleware to parse JSON and URL-encoded data
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+//app.use(bodyParser.urlencoded({ extended: true }));
 
 // Define a port to listen to
 const port = 3000;
